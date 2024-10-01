@@ -14,15 +14,16 @@ Tech Stack
 Backend: Node.js, Express.js
 Database: Sequelize(ORM), MySQL
 File Upload: Multer (for handling image uploads)
-API Documentation: Swagger library
+API Documentation: Swagger library 
+Using laibary jest for TEST CASE  
 
 Installation
 Clone the repository:
 
 bash
 Copy code
-git clone git@github.com:shyamgupta5555/product-management.git
-cd product-management-system
+git clone (https://github.com/shyamgupta5555/product-management.git)
+cd product-management
 
 Install dependencies: Run the following command to install the required packages:
 
@@ -55,8 +56,13 @@ File Uploads
 Products can have images uploaded. Only JPEG and PNG formats are allowed.
 
 If no image is uploaded, the system will return a default image for the product.
-added Dump database 
+Added Dump database import
+
+start Project npm start  
+npm test   // for ru test case 
+
+
 Conclusion
-That is it! You've now set up and can use your Product Management System. 
+That is it! You have now set up and can use your Product Management System. 
 If you encounter any issues, feel free to check the code or the logs for errors.
 Happy coding!
