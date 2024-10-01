@@ -1,4 +1,4 @@
-Product Management System
+## Product Management System
 This project is a Product Management System built using Node.js and Express. 
 It allows you to CREATE, UPDATE, GET, DELETE  products. 
 It also includes an image upload feature and products can be filtered by name and quantity.
@@ -22,7 +22,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone (https://github.com/shyamgupta5555/product-management.git)
+### git clone (https://github.com/shyamgupta5555/product-management.git)
 cd product-management
 
 Install dependencies: Run the following command to install the required packages:
@@ -41,13 +41,13 @@ API Endpoints
 
 Here are some of the key API endpoints:
 
-create a Product: POST /product
+## create a Product: POST /product
 
-Get a Product by ID: GET /product/:id
+## Get a Product by ID: GET /product/:id
 
-Update a Product: PUT /product/:id
+## Update a Product: PUT /product/:id
 
-Delete a Product: DELETE /product/:id
+## Delete a Product: DELETE /product/:id
 
 
 List Products with Filters: GET /product?name=xyz&minQuantity=5&maxQuantity=100
@@ -58,8 +58,8 @@ Products can have images uploaded. Only JPEG and PNG formats are allowed.
 If no image is uploaded, the system will return a default image for the product.
 Added Dump database import
 
-start Project npm start  
-npm test   // for ru test case 
+#start Project ## npm start  
+npm test   // for run test case 
 
 
 Conclusion
