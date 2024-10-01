@@ -1,0 +1,44 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "ProductMangement",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 10,             
+      "min": 0,
+      "acquire": 60000,       
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "ProductMangement",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 10,             
+      "min": 0,
+      "acquire": 60000,       
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "ProductMangement",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 10,             
+      "min": 0,
+      "acquire": 60000,       
+      "idle": 10000
+    }
+  }
+}
